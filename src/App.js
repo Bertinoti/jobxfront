@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import WishCard from './components/WishCard/WishCard'
+import { Carousel } from 'react-responsive-carousel';
+import CardCarousel from './components/CardCarousel/CardCarousel';
+const data = [
+  {
+    card: "Crew",
+    description: "Regalos para um Grupo",
+    tag: ["Despostes de Riesgo", "Montaña"]
+  },
+  {
+    card: "Family",
+    description: "Regalos para Familias",
+    tag: ["Scape Rooms", "Sports", "Montaña"]
+  },
+  {
+    card: "Parejas",
+    description: "Regalos para Parejas",
+    tag: ["Romantico", "Cenas"]
+  },
+  {
+    card: "Friends",
+    description: "Regalos de Cumpleaños",
+    tag: ["Montaña", "Sports", "Salud"]
+  }
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CardCarousel data={data} />
+    </>
+
   );
 }
 
