@@ -1,5 +1,4 @@
-import React from 'react'
-import CardTitle from './CardTitle'
+import CardTitle from "./CardTitle"
 
 export default {
     title: "card title",

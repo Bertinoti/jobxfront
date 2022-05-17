@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react"
-import CardTag from './CardTag'
+import CardTag from "./CardTag"
 
 
 test("Button Tag  render", async () => {

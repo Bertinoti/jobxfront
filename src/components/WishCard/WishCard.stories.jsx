@@ -1,6 +1,4 @@
-import React from 'react'
-import CardTitle from '../CardTitle/CardTitle'
-import WishCard from './WishCard'
+import WishCard from "./WishCard"
 
 
 export default {

@@ -1,4 +1,3 @@
-import React from 'react'
 import CardTitle from "./CardTitle"
 import { render } from "@testing-library/react"
 

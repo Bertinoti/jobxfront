@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types'
-import { Card } from '@mui/material'
-import { CardContent } from '@mui/material'
-import CardTitle from '../CardTitle/CardTitle'
-import CardDescription from '../CardDescription/CardDescription'
-import { CardActions } from '@mui/material'
-import CardTag from '../CardTags/CardTag'
+import PropTypes from "prop-types"
+import { Card } from "@mui/material"
+import { CardContent } from "@mui/material"
+import CardTitle from "../CardTitle/CardTitle"
+import CardDescription from "../CardDescription/CardDescription"
+import { CardActions } from "@mui/material"
+import CardTag from "../CardTags/CardTag"
 
 const WishCard = ({ title, description, tagbutton, handleTag, bgImg }) => {
     return (

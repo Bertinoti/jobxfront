@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react"
-import WishCard from './WishCard'
+import WishCard from "./WishCard"
 import family from "../../assets/family.jpg"
 
 test("Card Title render", async () => {

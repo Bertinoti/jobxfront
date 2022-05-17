@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import { Button } from '@mui/material'
+import PropTypes from "prop-types"
+import { Button } from "@mui/material"
 
 const CardTag = ({ buttonTag, handleOnclick }) => {
   return (
@@ -12,10 +12,10 @@ const CardTag = ({ buttonTag, handleOnclick }) => {
         color: "white",
         fontSize: 10,
         borderRadius: 8,
-        ':hover': {
-          transform: 'scale(1.2)',
-          color: 'green',
-          backgroundColor: 'lightgreen'
+        ":hover": {
+          transform: "scale(1.2)",
+          color: "green",
+          backgroundColor: "lightgreen"
         }
       }}
     >

@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 import { animated, useSpring } from "react-spring";
 import { useScroll } from "react-use-gesture";
 import "./style.scss";
-import WishCard from '../WishCard/WishCard';
+import WishCard from "../WishCard/WishCard";
 
 const clamp = (value, clampAt) => {
     if (value > 0) {
