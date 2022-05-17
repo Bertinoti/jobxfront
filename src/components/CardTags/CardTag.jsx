@@ -26,7 +26,7 @@ const CardTag = ({ buttonTag, handleOnclick }) => {
 }
 
 CardTag.propTypes = {
-  buttonTag: PropTypes.string.isRequired,
+  buttonTag: PropTypes.array.isRequired,
 }
 
 export default CardTag

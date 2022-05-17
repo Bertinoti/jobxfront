@@ -7,7 +7,7 @@ import CardDescription from '../CardDescription/CardDescription'
 import { CardActions } from '@mui/material'
 import CardTag from '../CardTags/CardTag'
 
-const WishCard = ({ title, description, tagbutton, handleTag }) => {
+const WishCard = ({ title, description, tagbutton, handleTag, bgImg }) => {
     return (
         <Card
             sx={{
@@ -21,6 +21,7 @@ const WishCard = ({ title, description, tagbutton, handleTag }) => {
                 borderColor: "#343434",
                 borderStyle: "solid",
                 borderWidth: 2,
+                backgroundImage: { bgImg }
             }}
         >
             <CardContent>

@@ -32,7 +32,6 @@ const CardCarousel = (data) => {
                     className="card"
                     style={{
                         ...style,
-                        // backgroundImage: `url(${src})`
                     }}
                 >
                     <WishCard
@@ -46,6 +45,8 @@ const CardCarousel = (data) => {
     )
 }
 
-CardCarousel.propTypes = {}
+CardCarousel.propTypes = {
+    data: PropTypes.array.isRequired
+}
 
 export default CardCarousel

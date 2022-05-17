@@ -4,8 +4,8 @@ import CardTag from './CardTag'
 
 
 test("Button Tag  render", async () => {
-    const cardTag = "libros"
+    const cardTag = ["libros"]
     const { findAllByRole } = render(<CardTag buttonTag={ cardTag } />)
     const buttontagComponent = await findAllByRole("button")
-    expect(buttontagComponent[0]).toHaveTextContent(cardTag)
+    expect(buttontagComponent[0]).toHaveTextContent(cardTag[0])
 })
