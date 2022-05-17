@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 import { Button } from '@mui/material'
 
@@ -26,7 +25,7 @@ const CardTag = ({ buttonTag, handleOnclick }) => {
 }
 
 CardTag.propTypes = {
-  buttonTag: PropTypes.array.isRequired,
+  buttonTag: PropTypes.string.isRequired,
 }
 
 export default CardTag

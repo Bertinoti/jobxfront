@@ -1,4 +1,3 @@
-import React from 'react'
 import { render } from "@testing-library/react"
 import WishCard from './WishCard'
 import family from "../../assets/family.jpg"
@@ -10,6 +9,7 @@ test("Card Title render", async () => {
     const image = family
     const { findAllByRole } = render(
         <WishCard
+            key={cardtitle}
             title={cardtitle}
             description={cardDescription}
             tagbutton={cardButton}
