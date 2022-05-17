@@ -1,10 +1,9 @@
 import PropTypes from "prop-types"
 import { Button } from "@mui/material"
 
-const CardTag = ({ buttonTag, handleOnclick }) => {
+const CardTag = ({ buttonTag  }) => {
   return (
     <Button
-      onClick={handleOnclick}
       sx={{
         paddingX: 2,
         marginX: 2,

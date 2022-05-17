@@ -1,6 +1,5 @@
 import PropTypes from "prop-types"
 import { Typography } from "@mui/material"
-import "typeface-roboto"
 
 const CardTitle = ({ title }) => {
     return (

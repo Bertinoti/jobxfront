@@ -1,3 +1,4 @@
+/*eslint node/no-missing-import: "error" */
 import CardTag from "./CardTag"
 
 export default {
