@@ -10,8 +10,8 @@ const WishCard = ({ title, description, tagbutton, handleTag, bgImg }) => {
     return (
         <Card
             sx={{
-                minWidth:300,
-                minHeight:200,
+                minWidth: 300,
+                minHeight: 200,
                 mx: 8,
                 my: 2,
                 display: "flex",
@@ -29,11 +29,11 @@ const WishCard = ({ title, description, tagbutton, handleTag, bgImg }) => {
             </CardContent>
             <CardActions>
                 {
-                    (tagbutton.length >1 )? tagbutton.map((tag) => {
-                        return(
-                                <CardTag buttonTag={tag} />
-                            )
-                    }): <CardTag buttonTag={tagbutton} />
+                    (tagbutton.length > 1) ? tagbutton.map((tag) => {
+                        return (
+                            <CardTag buttonTag={tag} />
+                        )
+                    }) : <CardTag buttonTag={tagbutton} />
                 }
             </CardActions>
         </Card>

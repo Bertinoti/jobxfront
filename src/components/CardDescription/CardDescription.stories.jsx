@@ -6,4 +6,4 @@ export default {
     component: CardDescription
 }
 
-export const cardExample = () => <CardDescription description="this is a description"/>
+export const cardExample = () => <CardDescription description="this is a description" />

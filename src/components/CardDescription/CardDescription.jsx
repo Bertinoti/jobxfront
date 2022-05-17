@@ -5,7 +5,7 @@ import { Typography } from "@mui/material"
 const CardDescription = ({ description }) => {
     return (
         <>
-            <Typography  display="inline" variant="h5"> {description} </Typography>
+            <Typography display="inline" variant="h5"> {description} </Typography>
         </>
     )
 }

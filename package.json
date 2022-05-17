@@ -41,8 +41,10 @@
           "**/*.stories.*"
         ],
         "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
+          "node/no-extraneous-import": ["error", {
+              "allowModules": ["prop-types", "@mui/material"]
+          }]
+      }
       }
     ]
   },

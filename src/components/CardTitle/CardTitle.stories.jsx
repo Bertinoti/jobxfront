@@ -5,4 +5,4 @@ export default {
     component: CardTitle
 }
 
-export const CardTitleExample = () => <CardTitle title="Family"/>
+export const CardTitleExample = () => <CardTitle title="Family" />

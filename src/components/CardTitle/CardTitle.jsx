@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import { Typography } from "@mui/material"
 import "typeface-roboto"
 
-const CardTitle = ({title}) => {
+const CardTitle = ({ title }) => {
     return (
         <>
             <Typography variant="h4"> {title}  </Typography>
